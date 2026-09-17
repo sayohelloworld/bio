@@ -11,11 +11,11 @@
     --muted:#929292;
     --muted2:#666;
 
-    --accent:#00ff88;
-    --link:#4f83ff;
+    --accent:#fff;
+    --link:#fff;
 
     --border:#1d1d1d;
-    --border-hover:#303030;
+    --border-hover:#444;
 
     --surface:#080808;
 }
@@ -181,6 +181,7 @@ img{
 
     transform:rotate(-7deg);
 }
+
 
 /* NAV */
 
@@ -504,7 +505,7 @@ section{
 .socials a:hover{
     color:var(--accent);
     border-color:var(--accent);
-    background:rgba(0,255,136,.025);
+    background:rgba(255,255,255,.025);
 }
 
 
@@ -622,8 +623,8 @@ footer div:last-child{
 
     background:radial-gradient(
         circle,
-        rgba(0,255,136,.035) 0%,
-        rgba(0,255,136,.012) 30%,
+        rgba(255,255,255,.035) 0%,
+        rgba(255,255,255,.012) 30%,
         transparent 70%
     );
 
