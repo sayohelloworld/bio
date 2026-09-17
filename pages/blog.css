@@ -11,8 +11,8 @@
     --muted:#929292;
     --muted2:#666;
 
-    --accent:#00ff88;
-    --link:#4f83ff;
+    --accent:#fff;
+    --link:#fff;
 
     --border:#1d1d1d;
     --border-hover:#303030;
@@ -85,8 +85,8 @@ img{
 
     background:radial-gradient(
         circle,
-        rgba(0,255,136,.035) 0%,
-        rgba(0,255,136,.012) 30%,
+        rgba(255,255,255,.035) 0%,
+        rgba(255,255,255,.012) 30%,
         transparent 70%
     );
 
@@ -397,7 +397,7 @@ nav a:hover::after{
 }
 
 .post-date{
-    color:var(--accent);
+    color:var(--muted);
 
     font-size:10px;
     text-transform:uppercase;
@@ -444,7 +444,7 @@ nav a:hover::after{
 }
 
 .post-meta{
-    color:var(--accent);
+    color:var(--muted);
 
     font-size:11px;
     letter-spacing:.08em;
@@ -558,8 +558,7 @@ nav a:hover::after{
     outline-offset:3px;
 
     box-shadow:
-        0 0 10px var(--accent),
-        0 0 20px rgba(0,255,136,.4);
+        0 0 8px rgba(255,255,255,.25);
 }
 
 
