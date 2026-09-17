@@ -11,8 +11,8 @@
     --muted:#929292;
     --muted2:#666;
 
-    --accent:#00ff88;
-    --link:#4f83ff;
+    --accent:#fff;
+    --link:#fff;
 
     --border:#1d1d1d;
     --border-hover:#303030;
@@ -92,8 +92,8 @@ img{
 
     background:radial-gradient(
         circle,
-        rgba(0,255,136,.035) 0%,
-        rgba(0,255,136,.012) 30%,
+        rgba(255,255,255,.035) 0%,
+        rgba(255,255,255,.012) 30%,
         transparent 70%
     );
 
@@ -271,7 +271,7 @@ nav a:hover::after{
 }
 
 .project .date{
-    color:var(--accent);
+    color:var(--muted);
 
     font-family:'JetBrains Mono',monospace;
     font-size:10px;
@@ -308,7 +308,7 @@ nav a:hover::after{
 
     background:transparent;
 
-    color:var(--accent);
+    color:var(--fg);
 
     font-family:'JetBrains Mono',monospace;
     font-size:11px;
@@ -321,8 +321,8 @@ nav a:hover::after{
 
 .project .links a:hover{
     color:var(--fg);
-    border-color:var(--accent);
-    background:rgba(0,255,136,.025);
+    border-color:var(--border-hover);
+    background:rgba(255,255,255,.025);
 }
 
 
@@ -387,6 +387,7 @@ nav a:hover::after{
     outline:2px solid var(--accent);
     outline-offset:3px;
 }
+
 
 /* BACKGROUND ICONS */
 
