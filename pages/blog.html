@@ -1,121 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sayonara - Blog</title>
+    <link rel="icon" type="image/png" href="../assets/icon.png">
 
-  <title>Silence - blogs</title>
-  <link rel="icon" type="image/png" href="../assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="blog.css">
-
-  <script src="blogTheme.js" defer></script>
-
+    <link rel="stylesheet" href="blog.css">
+    <script src="blogTheme.js" defer></script>
 </head>
 
 <body>
 
-  <div class="background-icons">
-
-    <img src="../assets/icons/cafe.png" class="icon icon-1" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-2" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-3" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-4" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-5" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-6" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-7" alt="">
-    <img src="../assets/icons/cafe.png" class="icon icon-8" alt="">
-
-  </div>
-
-  <div class="glow"></div>
-
-  <nav>
-
-    <a href="../index.html">index</a>
-    <a href="blog.html">blogs</a>
-    <a href="projects.html">projects</a>
-    <a href="uses.html">uses</a>
-    <a href="contact.html">contact</a>
-
-  </nav>
-
-  <a href="../index.html" class="back-link">
-    ← back to index
-  </a>
-
-  <main class="container">
-
-    <h1>blog</h1>
-
-    <div class="blog-list">
-
-      <article class="blog-post">
-
-        <div class="post-heading">
-
-          <a
-            class="post-link"
-            href="blogs/neuronal-networks.html"
-          >
-            <h2>
-              Behind ChatGPT: Understanding Neural Networks Simply
-            </h2>
-          </a>
-
-          <span class="post-date">
-            2026.03.15
-          </span>
-
-        </div>
-
-        <p>
-          Neural networks are machine learning models inspired by the human brain.
-          They are composed of interconnected artificial neurons organized into layers.
-        </p>
-
-      </article>
-
-      <article class="blog-post">
-
-        <div class="post-heading">
-
-          <a
-            class="post-link"
-            href="blogs/hdi-all-begin.html"
-          >
-            <h2>
-              How did it all begin?
-            </h2>
-          </a>
-
-          <span class="post-date">
-            2026.03.17
-          </span>
-
-        </div>
-
-        <p>
-          Since the dawn of humanity, one question has persisted, silent yet omnipresent:
-          how did it all begin? This question transcends cultures, religions, and eras.
-          It is universal.
-        </p>
-
-      </article>
-
+    <div class="background-icons">
+        <img src="../assets/icons/cafe.png" class="icon icon-1" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-2" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-3" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-4" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-5" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-6" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-7" alt="">
+        <img src="../assets/icons/cafe.png" class="icon icon-8" alt="">
     </div>
 
-    <footer>
-      © 2026 teammdr
-    </footer>
+    <div class="site">
 
-  </main>
+        <header class="site-header">
+            <div class="header-top">
+                <div class="header-brand">
+                    <span class="header-symbol">✳</span>
+                    <div>
+                        <h1>SAYONARA</h1>
+                        <p>PERSONAL WEBSITE / BLOG</p>
+                    </div>
+                </div>
+
+                <div class="header-note">
+                    <span>THOUGHTS & WRITINGS</span>
+                    <span>EST. 2026</span>
+                    <span class="header-version">[ BLOG ARCHIVE ]</span>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <a href="../index.html">index</a>
+                <a href="blog.html" class="current">blog</a>
+                <a href="projects.html">projects</a>
+                <a href="uses.html">uses</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        </header>
+
+        <div class="page-layout">
+
+            <aside class="sidebar sidebar-left">
+
+                <section class="panel profile-panel">
+                    <h2 class="panel-heading">BLOG INFO</h2>
+
+                    <div class="profile-image">
+                        <img src="../assets/icon.png" alt="Profile picture">
+                    </div>
+
+                    <div class="profile-name">Sayonara</div>
+                    <div class="profile-nickname">@sayohelloworld</div>
+
+                    <div class="profile-details">
+                        <div>
+                            <span>PAGE</span>
+                            <strong>Blog</strong>
+                        </div>
+                        <div>
+                            <span>POSTS</span>
+                            <strong>02</strong>
+                        </div>
+                        <div>
+                            <span>YEAR</span>
+                            <strong>2026</strong>
+                        </div>
+                        <div>
+                            <span>STATUS</span>
+                            <strong>Online</strong>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">ABOUT</h2>
+                    <p class="sidebar-text">
+                        A small collection of articles, thoughts and discoveries.
+                        Things I find interesting enough to write about.
+                    </p>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">CATEGORIES</h2>
+                    <ul class="retro-list">
+                        <li>Technology</li>
+                        <li>Artificial intelligence</li>
+                        <li>Thoughts</li>
+                        <li>Science</li>
+                    </ul>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">ELSEWHERE</h2>
+                    <div class="sidebar-links">
+                        <a href="../index.html">← Homepage</a>
+                        <a href="projects.html">My projects</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </section>
+
+            </aside>
+
+            <main class="main-content">
+
+                <section class="welcome-box">
+                    <div class="welcome-top">
+                        <span class="small-label">/ BLOG / ARCHIVE</span>
+                        <span class="small-label">NO. 001</span>
+                    </div>
+
+                    <h2>MY BLOG</h2>
+
+                    <p>
+                        A place for <strong>ideas, discoveries and random thoughts</strong>.
+                        I write about things that catch my attention, from technology
+                        to questions about the world around us.
+                    </p>
+
+                    <p class="jp">記録 • 思考 • 発見</p>
+
+                    <div class="welcome-bottom">
+                        <span>02 ARTICLES AVAILABLE</span>
+                        <span>LAST UPDATED: 2026</span>
+                    </div>
+                </section>
+
+                <section class="content-panel">
+                    <h2 class="section-heading">
+                        <span>01.</span> LATEST ARTICLES
+                    </h2>
+
+                    <div class="blog-list">
+
+                        <article class="blog-post">
+                            <div class="post-meta">
+                                <span class="post-category">TECHNOLOGY / AI</span>
+                                <span class="post-date">2026.03.15</span>
+                            </div>
+
+                            <a class="post-link" href="blogs/neuronal-networks.html">
+                                <h3>Behind ChatGPT: Understanding Neural Networks Simply</h3>
+                            </a>
+
+                            <p>
+                                Neural networks are machine learning models inspired by the human brain.
+                                They are composed of interconnected artificial neurons organized into layers.
+                            </p>
+
+                            <div class="post-footer">
+                                <span>ARTICLE #001</span>
+                                <a href="blogs/neuronal-networks.html">READ MORE →</a>
+                            </div>
+                        </article>
+
+                        <article class="blog-post">
+                            <div class="post-meta">
+                                <span class="post-category">THOUGHTS / ORIGINS</span>
+                                <span class="post-date">2026.03.17</span>
+                            </div>
+
+                            <a class="post-link" href="blogs/hdi-all-begin.html">
+                                <h3>How did it all begin?</h3>
+                            </a>
+
+                            <p>
+                                Since the dawn of humanity, one question has persisted, silent yet omnipresent:
+                                how did it all begin? This question transcends cultures, religions, and eras.
+                                It is universal.
+                            </p>
+
+                            <div class="post-footer">
+                                <span>ARTICLE #002</span>
+                                <a href="blogs/hdi-all-begin.html">READ MORE →</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+
+                <section class="content-panel">
+                    <h2 class="section-heading">
+                        <span>02.</span> ARCHIVE
+                    </h2>
+
+                    <div class="archive-entry">
+                        <div>
+                            <strong>2026</strong>
+                            <p>Articles published during 2026</p>
+                        </div>
+                        <span class="archive-count">02 POSTS</span>
+                    </div>
+                </section>
+
+            </main>
+
+            <aside class="sidebar sidebar-right">
+
+                <section class="panel">
+                    <h2 class="panel-heading">ARCHIVE</h2>
+
+                    <div class="mini-entry">
+                        <div class="mini-entry-label">2026</div>
+                        <p>Two articles published</p>
+                        <a href="blog.html">View archive →</a>
+                    </div>
+
+                    <div class="mini-entry">
+                        <div class="mini-entry-label">2025</div>
+                        <p>No articles yet.</p>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">RECENT POSTS</h2>
+
+                    <div class="mini-entry">
+                        <div class="mini-entry-label">Neural Networks</div>
+                        <p>Understanding how ChatGPT works.</p>
+                        <a href="blogs/neuronal-networks.html">Read →</a>
+                    </div>
+
+                    <div class="mini-entry">
+                        <div class="mini-entry-label">How did it all begin?</div>
+                        <p>A question about our origins.</p>
+                        <a href="blogs/hdi-all-begin.html">Read →</a>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">QUICK LINKS</h2>
+                    <div class="sidebar-links">
+                        <a href="../index.html">Homepage</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="uses.html">Uses</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </section>
+
+                <section class="panel">
+                    <h2 class="panel-heading">A LITTLE NOTE</h2>
+                    <p class="mood-text">静かな時間</p>
+                    <div class="mood-decoration">✳ · ✳ · ✳</div>
+                    <p class="sidebar-small">Thanks for reading.</p>
+                </section>
+
+            </aside>
+
+        </div>
+
+        <footer class="site-footer">
+            <span>© 2026 sayohelloworld</span>
+            <span>MADE WITH HTML & CSS</span>
+            <a href="#top">BACK TO TOP ↑</a>
+        </footer>
+
+    </div>
 
 </body>
 </html>
