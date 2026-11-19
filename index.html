@@ -1,24 +1,18 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="theme-color" content="#080808">
   <title>Sayonara</title>
   <link rel="icon" type="image/png" href="assets/icon.png">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=Verdana&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="theme.js" defer></script>
 </head>
-
-<script src="theme.js"></script>
-
 <body>
-
   <div class="background-icons">
     <img src="assets/icons/cafe.png" class="icon icon-1" alt="">
     <img src="assets/icons/cafe.png" class="icon icon-2" alt="">
@@ -30,461 +24,341 @@
     <img src="assets/icons/cafe.png" class="icon icon-8" alt="">
   </div>
 
-  <div class="glow"></div>
+  <div class="site">
+    <header class="site-header">
+      <div class="header-top">
+        <div class="header-brand">
+          <span class="header-symbol">✳</span>
+          <div>
+            <h1>SAYONARA</h1>
+            <p>PERSONAL WEBSITE</p>
+          </div>
+        </div>
+        <div class="header-note">
+          <span>WELCOME TO MY CORNER OF THE INTERNET</span>
+          <span class="header-version">EST. 2026</span>
+        </div>
+      </div>
 
-  <nav>
-    <a href="index.html">index</a>
-    <a href="pages/blog.html">blog</a>
-    <a href="pages/projects.html">projects</a>
-    <a href="pages/uses.html">uses</a>
-    <a href="pages/contact.html">contact</a>
-  </nav>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="current" href="index.html">index</a>
+        <a href="pages/blog.html">blog</a>
+        <a href="pages/projects.html">projects</a>
+        <a href="pages/uses.html">uses</a>
+        <a href="pages/contact.html">contact</a>
+      </nav>
+    </header>
 
-  <main class="container">
+    <div class="page-layout">
+      <aside class="sidebar sidebar-left">
+        <section class="panel profile-panel">
+          <h2 class="panel-heading">PROFILE</h2>
+          <div class="profile-image">
+            <img src="assets/icon.png" alt="Sayonara">
+          </div>
+          <div class="profile-name">Sayonara</div>
+          <div class="profile-nickname">@sayohelloworld</div>
+          <div class="profile-details">
+            <div><span>location</span><strong>France</strong></div>
+            <div><span>status</span><strong>CS student</strong></div>
+            <div><span>website</span><strong>personal</strong></div>
+          </div>
+        </section>
 
-<section class="hero">
+        <section class="panel">
+          <h2 class="panel-heading">ABOUT</h2>
+          <p class="sidebar-text">
+            I'm Sayonara, but you can call me Sayo. I'm a Computer Science student interested in programming, technology and creative activities.
+          </p>
+          <p class="sidebar-text">
+            Outside of coding, I enjoy content creation, drawing and video editing.
+          </p>
+        </section>
 
-  <div class="eyebrow">~/sayonara</div>
+        <section class="panel">
+          <h2 class="panel-heading">INTERESTS</h2>
+          <ul class="retro-list">
+            <li>Programming</li>
+            <li>Content creation</li>
+            <li>Drawing</li>
+            <li>Video editing</li>
+            <li>Technology</li>
+          </ul>
+        </section>
 
-  <h1>Sayonara</h1>
+        <section class="panel">
+          <h2 class="panel-heading">ELSEWHERE</h2>
+          <div class="sidebar-links">
+            <a href="https://github.com/sayohelloworld" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://discord.com/users/1484967573555646578" target="_blank" rel="noopener noreferrer">Discord</a>
+            <a href="https://twitter.com/mehdisurtweet" target="_blank" rel="noopener noreferrer">Twitter</a>
+          </div>
+        </section>
+      </aside>
 
-  <div class="hero-list">
-    <div><span>→</span> CS student</div>
-    <div><span>→</span> programmer</div>
-    <div><span>→</span> France</div>
-    <div><span>→</span> Python / JavaScript / Bash / Linux</div>
+      <main class="main-content">
+        <section class="welcome-box">
+          <div class="welcome-top">
+            <span class="small-label">~/sayonara/index.html</span>
+            <span class="small-label">[ HOME ]</span>
+          </div>
+          <h2>Welcome to my website!</h2>
+          <p>
+            I'm <strong>Sayonara</strong> — but you can call me <strong>Sayo</strong>.
+            I'm a CS student from France interested in programming, technology,
+            content creation and other creative activities.
+          </p>
+          <p class="jp">静かな夜 • コード • 音楽</p>
+          <div class="welcome-bottom">
+            <span>✦ thanks for stopping by ✦</span>
+          </div>
+        </section>
+
+        <section class="content-panel presence">
+          <h2 class="section-heading"><span>01.</span> DISCORD PRESENCE</h2>
+          <img
+            src="https://lanyard.cnrad.dev/api/1484967573555646578?theme=dark&transparent=true&animated=true&hideDiscrim=false&borderRadius=0&idleMessage=Coding%20something%20cool"
+            alt="Discord presence"
+          >
+        </section>
+
+        <section class="content-panel">
+          <h2 class="section-heading"><span>02.</span> CURRENTLY</h2>
+          <div class="current-list">
+            <article class="current-item">
+              <div class="item-heading">
+                <h3>Learning</h3>
+                <span class="item-status">2026</span>
+              </div>
+              <p>Python / Web development / Shell scripting / Bash / Linux / Mathematics</p>
+            </article>
+            <article class="current-item">
+              <div class="item-heading">
+                <h3>Building</h3>
+                <span class="item-status">ACTIVE</span>
+              </div>
+              <p>MultiBot, personal tools, websites and other programming projects.</p>
+            </article>
+            <article class="current-item">
+              <div class="item-heading">
+                <h3>Exploring</h3>
+                <span class="item-status">ONGOING</span>
+              </div>
+              <p>Software development, networking, system administration and cybersecurity.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-panel">
+          <h2 class="section-heading"><span>03.</span> PROJECTS</h2>
+          <div class="project-list">
+            <article class="project-item">
+              <div class="item-heading">
+                <h3>MultiBot</h3>
+                <span class="item-status">IN DEVELOPMENT</span>
+              </div>
+              <p>Multifunctional Discord bot with moderation, utility, economy, automation and custom systems.</p>
+              <a href="https://github.com/sayohelloworld/MultiBot" target="_blank" rel="noopener noreferrer">→ github.com/sayohelloworld/MultiBot</a>
+            </article>
+            <article class="project-item">
+              <div class="item-heading">
+                <h3>DTS Productions</h3>
+                <span class="item-status">IN DEVELOPMENT</span>
+              </div>
+              <p>DTS Productions conceives and produces audiovisual content—from filming to the final creation—to bring your ideas to life.</p>
+              <a href="https://dts-productions.com/" target="_blank" rel="noopener noreferrer">→ dts-productions.com</a>
+            </article>
+            <article class="project-item">
+              <div class="item-heading">
+                <h3>Discord Quest Bypass</h3>
+              </div>
+              <p>A project exploring Discord quest automation and different quest-related interactions.</p>
+              <a href="https://github.com/sayohelloworld/Discord-Quest-Bypass" target="_blank" rel="noopener noreferrer">→ github.com/sayohelloworld/Discord-Quest-Bypass</a>
+            </article>
+          </div>
+          <a class="more-link" href="pages/projects.html">→ view all projects</a>
+        </section>
+
+        <section class="content-panel">
+          <h2 class="section-heading"><span>04.</span> TOOLS & LANGUAGES</h2>
+          <div class="current-list">
+            <article class="current-item">
+              <div class="item-heading"><h3>Languages</h3></div>
+              <p>Python / JavaScript / TypeScript / Lua / C / C++ / C# / HTML / CSS / SQL / Java</p>
+            </article>
+            <article class="current-item">
+              <div class="item-heading"><h3>Tools</h3></div>
+              <p>Git / GitHub / VS Code / Vim / Node.js / SQLite / Roblox Studio</p>
+            </article>
+            <article class="current-item">
+              <div class="item-heading"><h3>Environment</h3></div>
+              <p>Windows / Linux / WSL</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-panel">
+          <h2 class="section-heading"><span>05.</span> GITHUB ACTIVITY</h2>
+          <div class="stats-grid">
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=sayohelloworld&theme=dark&hide_border=true"
+              alt="GitHub streak statistics"
+            >
+            <img
+              src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sayohelloworld&theme=github_dark"
+              alt="GitHub statistics"
+            >
+            <img
+              src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sayohelloworld&theme=github_dark&utcOffset=2"
+              alt="GitHub productive time"
+            >
+          </div>
+        </section>
+      </main>
+
+      <aside class="sidebar sidebar-right">
+        <section class="panel">
+          <h2 class="panel-heading">QUICK LINKS</h2>
+          <div class="sidebar-links">
+            <a href="pages/blog.html">→ My blog</a>
+            <a href="pages/projects.html">→ My projects</a>
+            <a href="pages/uses.html">→ What I use</a>
+            <a href="pages/contact.html">→ Contact me</a>
+            <a href="https://github.com/sayohelloworld" target="_blank" rel="noopener noreferrer">→ GitHub profile</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2 class="panel-heading">LATEST</h2>
+          <div class="mini-entry">
+            <span class="mini-entry-label">BLOG</span>
+            <p>Development notes, experiments, discoveries and things I've learned.</p>
+            <a href="pages/blog.html">Read the blog →</a>
+          </div>
+          <div class="mini-entry">
+            <span class="mini-entry-label">GITHUB</span>
+            <p>Source code, experiments and public projects.</p>
+            <a href="https://github.com/sayohelloworld" target="_blank" rel="noopener noreferrer">Visit GitHub →</a>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2 class="panel-heading">MOOD</h2>
+          <p class="mood-text">静かな夜</p>
+          <div class="mood-decoration">✦ ✧ ★ ✧ ✦</div>
+          <p class="sidebar-small">A quiet little corner of the internet.</p>
+        </section>
+
+        <section class="panel theme-panel">
+          <h2 class="panel-heading">SELECT THEME</h2>
+          <div class="color-options">
+            <button class="color-option" data-theme="dark" style="background:#000" aria-label="Dark theme"></button>
+            <button class="color-option" data-theme="gray" style="background:#1e1e1e" aria-label="Gray theme"></button>
+            <button class="color-option" data-theme="blue" style="background:#0b1220" aria-label="Blue theme"></button>
+            <button class="color-option" data-theme="purple" style="background:#120a1f" aria-label="Purple theme"></button>
+            <button class="color-option" data-theme="cyber" style="background:#050505" aria-label="Cyber theme"></button>
+            <button class="color-option" data-theme="caffee" style="background:#352815" aria-label="Coffee theme"></button>
+          </div>
+        </section>
+      </aside>
+    </div>
+
+    <section class="buttons-panel">
+      <h2 class="section-heading"><span>06.</span> THE BUTTON WALL</h2>
+      <p class="buttons-description">Small pieces of the old web. Some of these are just here because they're cool.</p>
+      <div class="buttons-grid">
+        <img src="https://cyber.dabamos.de/88x31/linuxnow.gif" alt="Linux">
+        <img src="https://cyber.dabamos.de/88x31/github.gif" alt="GitHub">
+        <img src="https://cyber.dabamos.de/88x31/firefox2.gif" alt="Firefox">
+        <img src="https://cyber.dabamos.de/88x31/archlinux.gif" alt="Arch Linux">
+        <img src="https://cyber.dabamos.de/88x31/vim.gif" alt="Vim">
+        <img src="https://cyber.dabamos.de/88x31/cssdif.gif" alt="CSS">
+        <img src="https://cyber.dabamos.de/88x31/anybrowser3.gif" alt="Any browser">
+        <img src="https://cyber.dabamos.de/88x31/gnu-linux.gif" alt="GNU Linux">
+        <img src="https://88x31.nl/gifs/1001ffbutton.gif" alt="">
+        <img src="https://88x31.nl/gifs/1000wstbutton2.gif" alt="">
+        <img src="https://88x31.nl/gifs/2hu.gif" alt="">
+        <img src="https://88x31.nl/gifs/addmecom.gif" alt="">
+        <img src="https://88x31.nl/gifs/adeleine.png" alt="">
+        <img src="https://88x31.nl/gifs/acrobat.gif" alt="">
+        <img src="https://88x31.nl/gifs/anonyme.png" alt="">
+        <img src="https://88x31.nl/gifs/animeland.gif" alt="">
+        <img src="https://88x31.nl/gifs/anibuy3.gif" alt="">
+        <img src="https://88x31.nl/gifs/ANARCHIST.png" alt="">
+        <img src="https://88x31.nl/gifs/anarchy-now.gif" alt="">
+        <img src="https://88x31.nl/gifs/bigburger.gif" alt="">
+        <img src="https://88x31.nl/gifs/bioinformatics.jpg" alt="">
+        <img src="https://88x31.nl/gifs/boyband.gif" alt="">
+        <img src="https://88x31.nl/gifs/buton0.gif" alt="">
+        <img src="https://88x31.nl/gifs/button_tupachq1.gif" alt="">
+        <img src="https://88x31.nl/gifs/caramelldansen.gif" alt="">
+        <img src="https://88x31.nl/gifs/buttonmania.gif" alt="">
+        <img src="https://88x31.nl/gifs/c88_01.gif" alt="">
+        <img src="https://88x31.nl/gifs/cadnomori.png" alt="">
+        <img src="https://88x31.nl/gifs/catcatproductions.gif" alt="">
+        <img src="https://88x31.nl/gifs/celebritymonkey.gif" alt="">
+        <img src="https://88x31.nl/gifs/addit1.gif" alt="">
+        <img src="https://88x31.nl/gifs/17.gif" alt="">
+        <img src="https://88x31.nl/gifs/88x31_stonks.gif" alt="">
+        <img src="https://88x31.nl/gifs/adultchat.gif" alt="">
+        <img src="https://88x31.nl/gifs/absoft_logo.gif" alt="">
+        <img src="https://88x31.nl/gifs/anibutton.gif" alt="">
+        <img src="https://88x31.nl/gifs/animexchange.gif" alt="">
+        <img src="https://88x31.nl/gifs/animegay.gif" alt="">
+        <img src="https://88x31.nl/gifs/anime50.gif" alt="">
+        <img src="https://88x31.nl/gifs/annu.gif" alt="">
+        <img src="https://88x31.nl/gifs/appsirgames.gif" alt="">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/anybrowser.gif" alt="Any browser">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/best-viewed-800x600.gif" alt="Best viewed at 800x600">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/css-valid.gif" alt="CSS valid">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/debian.gif" alt="Debian">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/emacs.gif" alt="Emacs">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/geocities.gif" alt="GeoCities">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/get-firefox.gif" alt="Get Firefox">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/gimp.gif" alt="GIMP">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/javascript.gif" alt="JavaScript">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/linux.gif" alt="Linux">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/made-with-notepad.gif" alt="Made with Notepad">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/powered-by-linux.gif" alt="Powered by Linux">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/tor.gif" alt="Tor">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/vim.gif" alt="Vim">
+        <img src="https://raw.githubusercontent.com/promdotdev/prom-neocities-kit/main/buttons/yahoo.gif" alt="Yahoo">
+        <img src="https://cyber.dabamos.de/88x31/kawaiibutton.gif" alt="Kawaii">
+        <img src="https://cyber.dabamos.de/88x31/konata.gif" alt="Konata">
+        <img src="https://cyber.dabamos.de/88x31/miku.gif" alt="Hatsune Miku">
+        <img src="https://cyber.dabamos.de/88x31/nya2.gif" alt="Nya">
+        <img src="https://cyber.dabamos.de/88x31/rumia.gif" alt="Rumia">
+        <img src="https://cyber.dabamos.de/88x31/ah.gif" alt="Anime">
+        <img src="https://cyber.dabamos.de/88x31/animeland.gif" alt="AnimeLand">
+        <img src="https://cyber.dabamos.de/88x31/2hu.gif" alt="Touhou">
+        <img src="https://cyber.dabamos.de/88x31/animexchange.gif" alt="Anime exchange">
+        <img src="https://cyber.dabamos.de/88x31/anime50.gif" alt="Anime">
+        <img src="https://cyber.dabamos.de/88x31/anybrowser3.gif" alt="Any browser">
+        <img src="https://cyber.dabamos.de/88x31/geocities.gif" alt="GeoCities">
+        <img src="https://cyber.dabamos.de/88x31/guestbookani.gif" alt="Guestbook">
+        <img src="https://cyber.dabamos.de/88x31/mircnow.gif" alt="mIRC">
+        <img src="https://cyber.dabamos.de/88x31/winamp-skinsb.gif" alt="Winamp">
+        <img src="https://cyber.dabamos.de/88x31/mp3bttn.gif" alt="MP3">
+        <img src="https://cyber.dabamos.de/88x31/dreamcast.gif" alt="Dreamcast">
+        <img src="https://cyber.dabamos.de/88x31/n64_com_now.gif" alt="Nintendo 64">
+        <img src="https://cyber.dabamos.de/88x31/nescenter.gif" alt="NES">
+        <img src="https://cyber.dabamos.de/88x31/gimp.gif" alt="GIMP">
+        <img src="https://cyber.dabamos.de/88x31/discord.gif" alt="Discord">
+        <img src="https://cyber.dabamos.de/88x31/twitterbutton.gif" alt="Twitter">
+        <img src="https://cyber.dabamos.de/88x31/yahoo.gif" alt="Yahoo">
+        <img src="https://cyber.dabamos.de/88x31/virusalert.gif" alt="Virus alert">
+        <img src="https://cyber.dabamos.de/88x31/hackerpowered.gif" alt="Hacker powered">
+        <img src="https://cyber.dabamos.de/88x31/winrar.gif" alt="WinRAR">
+        <img src="https://cyber.dabamos.de/88x31/winzip.gif" alt="WinZip">
+        <img src="https://cyber.dabamos.de/88x31/ebay.gif" alt="eBay">
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>© 2026 Sayonara.</div>
+      <div>Made with care and a little bit of nostalgia.</div>
+      <a href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">back to top ↑</a>
+    </footer>
   </div>
-
-  <p class="desc">
-    I'm <strong>Sayonara</strong> — but you can call me <strong>Sayo</strong>.
-    I'm a CS student passionate about programming, technology, and building things.
-    I'm currently studying Computer Science while exploring different areas of
-    software development and improving my skills through personal projects.
-  </p>
-
-  <p class="desc">
-    When I'm not coding, I also enjoy content creation, drawing, and video editing.
-  </p>
-
-  <p class="jp">
-    静かな夜 • コード • 音楽
-  </p>
-
-</section>
-
-<div class="separator"></div>
-
-<section class="presence">
-
-  <div class="section-title">presence</div>
-
-  <img
-    src="https://lanyard.cnrad.dev/api/730472340865024070?theme=dark&transparent=true&animated=true&hideDiscrim=false&borderRadius=0&idleMessage=Coding%20something%20cool"
-    alt="Discord presence"
-  >
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">currently</div>
-
-  <div class="projects">
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>learning</h3>
-        <div class="tag">2026</div>
-      </div>
-
-      <p>
-        Python / Web development / Shell scripting / Bash / Linux / Mathematics
-      </p>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>building</h3>
-        <div class="tag">active</div>
-      </div>
-
-      <p>
-        MultiBot, personal tools, websites and other programming projects.
-      </p>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>exploring</h3>
-        <div class="tag">ongoing</div>
-      </div>
-
-      <p>
-        Software development, networking, system administration and cybersecurity.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">projects</div>
-
-  <div class="projects">
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>MultiBot</h3>
-        <div class="tag">currently working on</div>
-      </div>
-
-      <p>
-        Multifunctional Discord bot with moderation, utility, economy,
-        automation and custom systems.
-      </p>
-
-      <a
-        href="https://github.com/sayohelloworld/MultiBot"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        → github.com/sayohelloworld/MultiBot
-      </a>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>Discord Quest Bypass</h3>
-      </div>
-
-      <p>
-        A project exploring Discord quest automation and different
-        quest-related interactions.
-      </p>
-
-      <a
-        href="https://github.com/sayohelloworld/Discord-Quest-Bypass"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        → github.com/sayohelloworld/Discord-Quest-Bypass
-      </a>
-
-    </div>
-
-  </div>
-
-  <p class="section-link">
-    <a href="pages/projects.html">→ view all projects</a>
-  </p>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">stack</div>
-
-  <div class="projects">
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>languages</h3>
-      </div>
-
-      <p>
-        Python / JavaScript / TypeScript / Lua / C / C++ /
-        C# / HTML / CSS / SQL / Java
-      </p>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>tools</h3>
-      </div>
-
-      <p>
-        Git / GitHub / VS Code / Vim / Node.js / Express /
-        SQLite / Roblox Studio
-      </p>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>environment</h3>
-      </div>
-
-      <p>
-        Windows / Linux / Kali Linux / WSL
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">activity</div>
-
-  <div class="stats-grid">
-
-    <img
-      src="https://github-readme-streak-stats.herokuapp.com/?user=sayohelloworld&theme=dark&hide_border=true"
-      alt="GitHub streak statistics"
-    >
-
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sayohelloworld&theme=dark"
-      alt="GitHub statistics"
-    >
-
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sayohelloworld&theme=dark&utcOffset=2"
-      alt="GitHub productive time"
-    >
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">latest</div>
-
-  <div class="projects">
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>blog</h3>
-        <div class="tag">articles</div>
-      </div>
-
-      <p>
-        Development notes, experiments, discoveries and things I've learned.
-      </p>
-
-      <a href="pages/blog.html">
-        → read the blog
-      </a>
-
-    </div>
-
-    <div class="project">
-
-      <div class="project-top">
-        <h3>github</h3>
-        <div class="tag">open source</div>
-      </div>
-
-      <p>
-        Source code, experiments and public projects available on GitHub.
-      </p>
-
-      <a
-        href="https://github.com/sayohelloworld"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        → github.com/sayohelloworld
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">socials</div>
-
-  <div class="socials">
-
-    <a
-      href="https://github.com/sayohelloworld"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      github
-    </a>
-
-    <a
-      href="https://discord.com/users/730472340865024070"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      discord
-    </a>
-
-    <a
-      href="https://twitter.com/sayohelloworld"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      twitter
-    </a>
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="section-title">cool buttons</div>
-
-  <p class="buttons-description">
-    small pieces of the old web.
-  </p>
-
-  <div class="buttons-grid">
-
-    <img src="https://cyber.dabamos.de/88x31/linuxnow.gif" alt="Linux">
-    <img src="https://cyber.dabamos.de/88x31/github.gif" alt="GitHub">
-    <img src="https://cyber.dabamos.de/88x31/firefox2.gif" alt="Firefox">
-    <img src="https://cyber.dabamos.de/88x31/archlinux.gif" alt="Arch Linux">
-    <img src="https://cyber.dabamos.de/88x31/vim.gif" alt="Vim">
-    <img src="https://cyber.dabamos.de/88x31/cssdif.gif" alt="CSS">
-    <img src="https://cyber.dabamos.de/88x31/anybrowser3.gif" alt="Any browser">
-    <img src="https://cyber.dabamos.de/88x31/gnu-linux.gif" alt="GNU Linux">
-
-    <img src="https://88x31.nl/gifs/1001ffbutton.gif" alt="">
-    <img src="https://88x31.nl/gifs/1000wstbutton2.gif" alt="">
-    <img src="https://88x31.nl/gifs/2hu.gif" alt="">
-    <img src="https://88x31.nl/gifs/addmecom.gif" alt="">
-    <img src="https://88x31.nl/gifs/adeleine.png" alt="">
-    <img src="https://88x31.nl/gifs/acrobat.gif" alt="">
-    <img src="https://88x31.nl/gifs/anonyme.png" alt="">
-    <img src="https://88x31.nl/gifs/animeland.gif" alt="">
-    <img src="https://88x31.nl/gifs/anibuy3.gif" alt="">
-    <img src="https://88x31.nl/gifs/ANARCHIST.png" alt="">
-    <img src="https://88x31.nl/gifs/anarchy-now.gif" alt="">
-    <img src="https://88x31.nl/gifs/bigburger.gif" alt="">
-    <img src="https://88x31.nl/gifs/bioinformatics.jpg" alt="">
-    <img src="https://88x31.nl/gifs/blackdresses666.gif" alt="">
-    <img src="https://88x31.nl/gifs/boyband.gif" alt="">
-    <img src="https://88x31.nl/gifs/buton0.gif" alt="">
-    <img src="https://88x31.nl/gifs/button_tupachq1.gif" alt="">
-    <img src="https://88x31.nl/gifs/caramelldansen.gif" alt="">
-    <img src="https://88x31.nl/gifs/buttonmania.gif" alt="">
-    <img src="https://88x31.nl/gifs/c88_01.gif" alt="">
-    <img src="https://88x31.nl/gifs/cadnomori.png" alt="">
-    <img src="https://88x31.nl/gifs/catcatproductions.gif" alt="">
-    <img src="https://88x31.nl/gifs/celebritymonkey.gif" alt="">
-    <img src="https://88x31.nl/gifs/addit1.gif" alt="">
-    <img src="https://88x31.nl/gifs/17.gif" alt="">
-    <img src="https://88x31.nl/gifs/88x31_stonks.gif" alt="">
-    <img src="https://88x31.nl/gifs/adultchat.gif" alt="">
-    <img src="https://88x31.nl/gifs/absoft_logo.gif" alt="">
-    <img src="https://88x31.nl/gifs/anibutton.gif" alt="">
-    <img src="https://88x31.nl/gifs/animexchange.gif" alt="">
-    <img src="https://88x31.nl/gifs/animegay.gif" alt="">
-    <img src="https://88x31.nl/gifs/anime50.gif" alt="">
-    <img src="https://88x31.nl/gifs/annu.gif" alt="">
-    <img src="https://88x31.nl/gifs/appsirgames.gif" alt="">
-
-  </div>
-
-</section>
-
-<div class="separator"></div>
-
-<section>
-
-  <div class="selection-info">
-
-    <p class="section-title">select theme</p>
-
-    <div class="color-scroll">
-
-      <div class="color-options">
-
-        <button
-          class="color-option"
-          data-theme="dark"
-          style="background:#000"
-          aria-label="Dark theme"
-        ></button>
-
-        <button
-          class="color-option"
-          data-theme="gray"
-          style="background:#1e1e1e"
-          aria-label="Gray theme"
-        ></button>
-
-        <button
-          class="color-option"
-          data-theme="blue"
-          style="background:#0b1220"
-          aria-label="Blue theme"
-        ></button>
-
-        <button
-          class="color-option"
-          data-theme="purple"
-          style="background:#120a1f"
-          aria-label="Purple theme"
-        ></button>
-
-        <button
-          class="color-option"
-          data-theme="cyber"
-          style="background:#050505"
-          aria-label="Cyber theme"
-        ></button>
-
-        <button
-          class="color-option"
-          data-theme="caffee"
-          style="background:#352815"
-          aria-label="Coffee theme"
-        ></button>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<footer>
-  <span>© 2026 Sayonara.</span>
-</footer>
-
-  </main>
-
 </body>
 </html>
